@@ -28,7 +28,7 @@ function SearchBar({onSearch}) {
         ref={inputRef}
         type="text"
         placeholder="Search country..."
-        className="border p-2 mb-6"
+        className="border p-2 mb-6  bg-blue-400"
         onChange={handleChange}
       />
 
